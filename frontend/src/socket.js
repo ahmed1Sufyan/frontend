@@ -4,8 +4,8 @@ export const initSocket = async () => {
     const options = {
         'force new connection' : true,
         reconnectionAttempt : Infinity,
-        timeout : 10000,
+        timeout : 100000,
         transports : ['websocket']
     }
-    return  io("https://backend-coral-eight.vercel.app", options)
+    return  io("http://backend-coral-eight.vercel.app", options)
 }
