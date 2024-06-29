@@ -7,5 +7,5 @@ export const initSocket = async () => {
         timeout : 10000,
         transports : ['websocket']
     }
-    return  io("https://backend-8bqw.vercel.app", options)
+    return  io("https://backend-coral-eight.vercel.app", options)
 }
